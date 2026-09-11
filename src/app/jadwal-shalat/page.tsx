@@ -2,6 +2,8 @@ import { jadwalShalatMeta, jadwalShalatSeptember2026 } from "@/data/jadwalShalat
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card";
 
 export default function JadwalShalatPage() {
+  const jadwalMingguan = jadwalShalatSeptember2026.slice(0, 7);
+
   return (
     <main className="max-w-7xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-2">Jadwal Shalat</h1>
@@ -10,8 +12,8 @@ export default function JadwalShalatPage() {
       </p>
       <Card>
         <CardHeader>
-          <CardTitle>Jadwal Harian</CardTitle>
-          <CardDescription>Imsak sampai Isya</CardDescription>
+          <CardTitle>Jadwal Mingguan</CardTitle>
+          <CardDescription>Tampilan 7 hari pertama - Imsak sampai Isya</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="overflow-x-auto">
@@ -31,7 +33,7 @@ export default function JadwalShalatPage() {
                 </tr>
               </thead>
               <tbody>
-                {jadwalShalatSeptember2026.map((item) => (
+                {jadwalMingguan.map((item) => (
                   <tr key={item.tanggalLengkap} className="border-b">
                     <td className="py-3 font-medium">{item.tanggal}</td>
                     <td className="py-3">{item.hari}</td>
