@@ -7,8 +7,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-background">
       <section className="mx-auto max-w-7xl px-4 py-16 md:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight md:text-5xl">Sistem Manajemen Masjid dan Transparansi Keuangan</h1>
-          <p className="mt-4 text-lg text-muted-foreground">Portal warga dan panel admin untuk jadwal Jumat, pengumuman, pemasukan, pengeluaran, dan laporan sederhana.</p>
+          <h1 className="text-4xl font-bold tracking-tight md:text-5xl">Sistem Manajemen Masjid</h1>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Link href="/jadwal"><Button size="lg">Lihat Jadwal Jumat</Button></Link>
             <Link href="/admin/login"><Button variant="secondary" size="lg">Masuk Admin</Button></Link>

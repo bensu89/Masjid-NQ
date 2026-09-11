@@ -11,7 +11,7 @@ export function Header() {
     <header className="sticky top-0 z-10 border-b bg-background">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold text-primary">
-          Masjid App
+          Masjid Nurul Qolbi
         </Link>
         
         <nav className="hidden md:flex gap-8">

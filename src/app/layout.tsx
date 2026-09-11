@@ -5,7 +5,7 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Masjid App - Sistem Manajemen Masjid",
+  title: "Masjid Nurul Qolbi",
   description: "Platform digital untuk manajemen administrasi dan transparansi keuangan masjid",
 };
 
