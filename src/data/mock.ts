@@ -1,5 +1,5 @@
 export const mosque = {
-  name: "Masjid Al-Ikhlas",
+  name: "Masjid Nurul Qolbi",
   address: "Jl. Raya Masjid No. 123, Jakarta Selatan 12345",
   phone: "+62 21 1234 5678",
 };
@@ -13,7 +13,7 @@ export const jadwalList = [
 export const pengumumanList = [
   { id: "1", title: "Pengajian Rutin Malam Jumat", date: "1 Sep 2026", status: "active", content: "Bapak-bapak dan Ibu-ibu jamaah yang dirahmati Allah. Kami mengundang seluruh jamaah untuk menghadiri pengajian rutin yang diadakan setiap malam Jumat setelah Isya." },
   { id: "2", title: "Renovasi Toilet Masjid", date: "8 Sep 2026", status: "active", content: "Kami informasikan bahwa toilet masjid bagian barat akan direnovasi mulai tanggal 15 September 2026." },
-  { id: "3", title: "Pendaftaran Kelas Tahfidz Anak", date: "5 Sep 2026", status: "active", content: "Masjid Al-Ikhlas membuka pendaftaran kelas Tahfidz untuk anak-anak usia 7-12 tahun." },
+  { id: "3", title: "Pendaftaran Kelas Tahfidz Anak", date: "5 Sep 2026", status: "active", content: "Masjid Nurul Qolbi membuka pendaftaran kelas Tahfidz untuk anak-anak usia 7-12 tahun." },
 ];
 
 export const pemasukanList = [

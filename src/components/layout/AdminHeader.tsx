@@ -9,7 +9,7 @@ export const AdminHeader = () => {
         <div className="flex items-center space-x-2">
           <UserCircle className="w-8 h-8 text-primary" />
           <div className="space-y-1">
-            <p className="font-semibold text-foreground">Masjid Al‑Ikhlas</p>
+            <p className="font-semibold text-foreground">Masjid Nurul Qolbi</p>
             <p className="text-sm text-muted-foreground">Panel Admin</p>
           </div>
         </div>

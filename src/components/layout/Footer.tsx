@@ -4,7 +4,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-semibold mb-2">Masjid Al‑Ikhlas</h3>
+            <h3 className="font-semibold mb-2">Masjid Nurul Qolbi</h3>
             <p className="text-sm text-muted-foreground">Jl. Raya Masjid No. 123, Jakarta Selatan 12345</p>
             <p className="text-sm text-muted-foreground">Telepon: +62 21 1234 5678</p>
           </div>
@@ -26,7 +26,7 @@ export function Footer() {
         </div>
         
         <div className="border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} DKM Masjid Al‑Ikhlas. Semua hak cipta dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} DKM Masjid Nurul Qolbi. Semua hak cipta dilindungi.</p>
         </div>
       </div>
     </footer>
