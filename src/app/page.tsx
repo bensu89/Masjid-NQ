@@ -17,11 +17,11 @@ export default function HomePage() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           <Card>
             <CardHeader>
-              <CardTitle className="text-lg">Transparansi Keuangan</CardTitle>
-              <CardDescription>Lihat transaksi publik masjid.</CardDescription>
+              <CardTitle className="text-lg">Jadwal Shalat</CardTitle>
+              <CardDescription>Jadwal shalat harian Sumedang.</CardDescription>
             </CardHeader>
             <CardContent>
-              <Link href="/keuangan"><Button className="w-full">Buka Keuangan</Button></Link>
+              <Link href="/jadwal-shalat"><Button className="w-full">Buka Jadwal Shalat</Button></Link>
             </CardContent>
           </Card>
           <Card>

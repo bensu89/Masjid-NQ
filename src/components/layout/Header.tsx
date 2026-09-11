@@ -16,6 +16,7 @@ export function Header() {
         
         <nav className="hidden md:flex gap-8">
           <Link href="/" className="text-sm hover:text-primary">Beranda</Link>
+          <Link href="/jadwal-shalat" className="text-sm hover:text-primary">Jadwal Shalat</Link>
           <Link href="/jadwal" className="text-sm hover:text-primary">Jadwal Jumat</Link>
           <Link href="/keuangan" className="text-sm hover:text-primary">Keuangan</Link>
           <Link href="/pengumuman" className="text-sm hover:text-primary">Pengumuman</Link>
@@ -30,6 +31,7 @@ export function Header() {
       {open && (
         <nav className="md:hidden border-t bg-background p-4 space-y-2">
           <Link href="/" className="block text-sm hover:text-primary">Beranda</Link>
+          <Link href="/jadwal-shalat" className="block text-sm hover:text-primary">Jadwal Shalat</Link>
           <Link href="/jadwal" className="block text-sm hover:text-primary">Jadwal Jumat</Link>
           <Link href="/keuangan" className="block text-sm hover:text-primary">Keuangan</Link>
           <Link href="/pengumuman" className="block text-sm hover:text-primary">Pengumuman</Link>
